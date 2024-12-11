@@ -45,8 +45,8 @@ const isSheCome =undefined;
 
 const conversionBoolean= Boolean(isSheCome);
 
-console.log(typeof conversionBoolean);
-console.log(conversionBoolean)
+// console.log(typeof conversionBoolean);
+// console.log(conversionBoolean)
 
 /*
     conversiton Boolean
@@ -54,3 +54,45 @@ console.log(conversionBoolean)
 // "mejbha"=> true; ""=> false
 // null=> false ; undefined=> false
 */
+
+// ---------------------opereations ---------------------
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2/2);
+// console.log(2**2);
+// console.log(2%2);
+
+let nam1="mejbha";
+let nam2= " rahim";
+let nam3= nam1 + nam2;
+// console.log(nam3)
+
+// console.log("1" +2);
+// console.log(1 +"2");
+// console.log(1+2 +"2");
+// console.log("2"+2 +2);
+
+let count=100;
+let a= count++;
+let c=++count;
+console.log(c)
+console.log(a)
+console.log(count)
+
+let x = 3;
+const y = x++;
+
+console.log(`x:${x}, y:${y}`);
+// Expected output: "x:4, y:3"
+// postfix: increment oparator increment and returns the value before incremating
+
+// let a = 3;
+// const b = ++a;
+
+// // console.log(`a:${a}, b:${b}`);
+// Expected output: "a:4, b:4"
+// prefix: increment oparator increment and returns the value after incremating
+
+
