@@ -16,3 +16,5 @@ there are several type of data types
 
 console.log(typeof null);
 console.log(typeof undefined);
+
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/
