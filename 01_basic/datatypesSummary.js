@@ -29,3 +29,7 @@ const myFunction =function(){
 console.log(36)
 }
 myFunction();
+
+// memory allocation 
+
+// stack is call by value and heap is call by refrence 
