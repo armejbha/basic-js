@@ -20,11 +20,13 @@ const newArr= new Array(1,2,3,4,5);
 // console.log(arr)
 // arr.shift()
 // console.log(arr) removes from first element
-console.log("A:" ,arr);
-// const arr1=arr.slice(1,3); doesn't effect main array
-console.log("B:",arr1);
+// console.log("A:" ,arr);
+// const arr1=arr.slice(0,3);  doesn't effect main array
+// console.log("B:",arr1);
 
-// const arr2=arr.splice(1,3); it's totally changed and cutoff the value
-console.log("C:",arr2);
-console.log("D:",arr);
+// const arr2=arr.splice(0,3); it's totally changed and cutoff the value  
+// console.log("C:",arr2);
+// console.log("D:",arr);
+
+console.log(arr.splice(1,4))
 
