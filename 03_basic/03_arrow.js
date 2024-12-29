@@ -25,5 +25,25 @@ function whatsThis() {
   return this.a; // 'this' depends on how the function is called
 }
 
-console.log(whatsThis()); //
+// console.log(whatsThis()); //
 
+function addTwo(num1, num2){
+    return num1+num2;
+}
+
+// console.log(addTwo(2,4));
+const addTwoNumber=function(num1, num2){
+    return num1+num2;
+}
+
+// console.log(addTwoNumber(2,5));
+
+// const addtw=(num1,num2)=>{return num1+num2}
+// const addtw=(num1,num2)=> num1+num2
+const addtw=(num1,num2)=> (num1+num2)
+
+// console.log(addtw(2,8))
+
+const userInfo=(num1,num2)=>({username:"mejbha"})
+
+console.log(userInfo())
